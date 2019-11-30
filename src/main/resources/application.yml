@@ -1,0 +1,15 @@
+server:
+  port: 9095
+
+telegram:
+  token: token
+  default-chat-id: chat-id
+  bot-name: myBot
+  parse-mode: html
+
+proxy:
+  host: localhost
+  port: 9050
+
+logging:
+    config: classpath:logback.xml
